@@ -1,15 +1,15 @@
 import React from "react";
-import Sidebar from "../components/Sidebar";
-import Navbar from "../components/Navbar";
 import Body from "../components/Body";
-import { Container, Wrapper } from "./style";
+import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
+import { Container, Wrapper } from "../root/style";
 
 export const Root = () => {
   return (
     <Container>
-      <Sidebar />
+      <Navbar />
       <Wrapper>
-        <Navbar />
+        <Sidebar />
         <Body />
       </Wrapper>
     </Container>

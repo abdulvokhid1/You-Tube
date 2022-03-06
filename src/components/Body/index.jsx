@@ -1,6 +1,7 @@
 import React from "react";
+import { Container } from "../Body/style";
 
 export const Body = () => {
-  return <div>Body</div>;
+  return <Container>Body</Container>;
 };
 export default Body;
